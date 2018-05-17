@@ -32,24 +32,8 @@ Python is such a broad language that there are lots of alternatives: there are J
 
 ### What is the history of this technology?
 
-Python was created by Guido van Rossum in 1991. The idea behind Python is to have a language that doesn't require lots of complicated syntax, that also looks pretty. For example, there is a bit of clever functionality with whitespace indicating breaks in the code, as opposed to curly braces.
+This dude named Guido van Rossum created it in 1991. 
 
 ### What is your opinion on the technology after having built something with it?
-
-I like Python so far; it's pretty easy to learn, especially after seeing JavaScript. It gives the coder a lot of freedom with the dynamic typing. It could be kind of annoying to scale out, though, because of the way that programs run in sequential order. Also, this makes testing difficult (which is why I need to learn unit testing!)
-
-### What are the biggest conceptual hurdles (if any) you encountered when researching this?
-
-It took me about 15 minutes to actualize how Python really worked; I didn't realize that it was an "interpreted" language, so I thought it needed a compiler to run. I finally got that you could just run it in the terminal, after installing it on your computer. The way that variable scoping works in Python is also different; to access global variables, you can just reference them, but in order to change their values, you need to include the keyword "global" when you reference it inside of a function, or whatever.
-
-### What article or forum was most helpful to you in learning this?
-
-My attention span is short, so I used lots of random articles and, of course, stack overflow. The python tutorial in the documentation(https://docs.python.org/3/tutorial/index.html) was good for starting out. Also, this article explains which version of Python you should use (http://docs.python-guide.org/en/latest/starting/which-python/).
-
-Finally, these tiny example programs helped me understand things. https://wiki.python.org/moin/SimplePrograms
-
-To run my little project, just clone this repo, CD into the folder, and type python ./experiment.py
-
-
 
 

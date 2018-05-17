@@ -25,7 +25,7 @@ def initial_prompt():
 def bear_attack():
     global user_hitpoints
     global user_status
-    attack_result = random.randint(2,2)
+    attack_result = random.randint(1,7)
     if attack_result == 1:
         swipe_result = random.randint(20,30)
         user_hitpoints -= swipe_result
@@ -35,7 +35,7 @@ def bear_attack():
         swipe_result = random.randint(20,30)
         user_hitpoints -= swipe_result
         user_status = "Bleeding"
-        print(f"The bear stabbed you with a knife for some reason!!!(?) You just took {swipe_result} points of damage, and now you're bleeding!")
+        print(f'The bear stabbed you with a knife for some reason!!!(?) You just took {swipe_result} points of damage, and now you\'re bleeding!')
         print(user_hitpoints)
     else:
         print('The bear tries to swipe you with his claw, but he misses. This bear is really slow, so he will miss a lot. He is trying his best.')
